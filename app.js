@@ -12,7 +12,7 @@ const db = mysql2.createConnection({
     user: 'root',
     host: 'localhost',
     password: 'password',
-    database: 'employeeSystem'
+    database: ''
 })
 
 app.listen(5000, () => {
