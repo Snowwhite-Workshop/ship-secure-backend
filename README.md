@@ -14,8 +14,14 @@ $ cd ship-secure-backend/ (the newly cloned folder)
 
 $ npm install
 
+# SETTING UP ENVIRONMENT DEPENDENCIES
+
+Create a .env file and create the environment variable just as in
+.env.example file.. replace the variable values witht the actual enviroment
+variable values
+
 Then,
-$ npm start (to start your application)
+$ npm run start-dev (to start your application)
 
 # Creating your own local branch
 
@@ -26,6 +32,8 @@ $ git checkout -b NEW_BRANCH_NAME (to create and switch to your new branch)
 // make your changes in your branch$ //
 
 # Committing and Pushing to github
+
+$ git pull origin upload(to get the current state of the upload branch)
 
 $ git add . (to stage all your changes for commit)
 
@@ -47,4 +55,3 @@ $
 - select the "reviewers" and "assignees" options (optional) by the right hand side
 
 Then, create.
-
